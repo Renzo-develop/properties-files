@@ -10,7 +10,6 @@ spring:
           uri: http://localhost:8080
           predicates:
             - Path=/client/**
-      routes:
         - id: router02
           uri: http://localhost:8081
           predicates:
