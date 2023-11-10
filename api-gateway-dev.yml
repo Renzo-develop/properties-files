@@ -7,10 +7,10 @@ spring:
     gateway:
       routes:
         - id: router01
-          uri: http://localhost:8080
+          uri: http://msclient-rec-id:8181
           predicates:
             - Path=/client/**
         - id: router02
-          uri: http://localhost:8081
+          uri: http://msdebitcard-rec:8282
           predicates:
             - Path=/debitcard/**            
