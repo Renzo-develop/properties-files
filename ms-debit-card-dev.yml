@@ -11,4 +11,4 @@ springdoc:
 application:
   third:
     app:
-      msclient: http://localhost:8080/client
+      msclient: http://msclient-rec-id:8080/client
