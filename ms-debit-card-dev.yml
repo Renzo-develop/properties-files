@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8282
 spring:
   data:
     mongodb:
@@ -11,4 +11,4 @@ springdoc:
 application:
   third:
     app:
-      msclient: http://msclient-rec-id:8080/client
+      msclient: http://msclient-rec-id:8181/client
